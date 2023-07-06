@@ -1,0 +1,61 @@
+/* css pour l'index*/
+body {
+    margin: 0;
+  }
+  
+  .hero-image {
+    position: relative;
+    background-image: url("https://images.pexels.com/photos/326316/pexels-photo-326316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* Ajustez la hauteur selon vos besoins */
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #424242;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 70px;
+  }
+  /*style pour le footer*/
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(240, 240, 240, 0.8)e;
+    padding: 10px;
+    border-top: 1px solid #a7a69a ; 
+    border-bottom: 1px solid #a7a69a;
+    font-size: 35px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }

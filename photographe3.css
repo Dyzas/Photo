@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(to right, #a5a4a4, #504f4f);
+  }
+  body {
+    font-family: "Source Serif Pro", serif;
+    font-size: 20px;
+  }
+  h2 {
+    text-decoration: underline;
+    font-style: italic;
+  }
+  span {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .tarifs p {
+    font-size: 15px;
+    font-weight: normal;
+  }
+  .tarifs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .tarifs h1 {
+    text-decoration: underline;
+  }
+  .contenu-tarifs {
+    grid-column: 1;
+  }
+  
+  .image-tarifs {
+    grid-column: 2;
+    background-image: url("https://images.pexels.com/photos/1983036/pexels-photo-1983036.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  /*style pour le footer*/
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(240, 240, 240, 0.8)e;
+    padding: 10px;
+    border-top: 1px solid #353534 ; 
+    border-bottom: 1px solid #353534;
+    font-size: 35px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #faf9f9;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  } 

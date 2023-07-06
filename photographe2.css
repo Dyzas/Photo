@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to bottom, #bbbaba, #313131);
+  }
+  h1 {
+    border: 2px solid #a7a69a; 
+    padding: 10px; 
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 25px
+  }
+  /*style pour le footer*/
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(240, 240, 240, 0.8)e;
+    padding: 10px;
+    border-top: 1px solid #a7a69a ; 
+    border-bottom: 1px solid #a7a69a;
+    font-size: 35px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #dad8d8;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
